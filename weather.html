@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="icon" href="./images/logo4.jpg">
+    <link rel="stylesheet" href="./weather.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.1-dist/css/bootstrap.min.css">
+</head>
+<body class="body">
+    <div class="container-sm col-sm-7 col-lg-4">
+        <div class="row text-center">
+            <div class="col">
+                <div class="input input-group">
+                    <input type="text" placeholder="نام شهر را وارد کنید..." id="input-city" class="form-control">
+                    <input type="submit" value="ثبت" id="add">
+                </div>
+                <p class="error text-danger">نام شهر اشتباه است</p>
+                <div class="output">
+                    <p class="img"></p>
+                    <h3 class="temp"></h3>
+                    <h2 class="city"></h2>
+                    <div class="d-flex justify-content-around">
+                        <p class="min-max"></p>
+                        <p class="wind d-flex">
+                            <!-- <div>
+                                <img src="./images/images_prev_ui.png" alt="">
+                            </div>
+                            <div>
+                                <p>0.65 km/h</p>
+                                <p>سرعت وزش باد</p>
+                            </div> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
